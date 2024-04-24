@@ -20,7 +20,7 @@
 Файл для хранения параметров конфигурации приложения<br>
 #### Структура БД
 
-![Screenshot](src/main/resources/images/Структура БД.png)
+![Screenshot](https://github.com/AlinaMam/RESTapi_skillfactory/blob/master/src/main/resources/images/Структура%20БД.png)
 
 
 
