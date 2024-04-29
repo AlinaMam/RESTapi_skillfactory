@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import org.hibernate.annotations.ColumnDefault;
 
 import java.math.BigDecimal;
 
@@ -19,6 +18,6 @@ public class UserBalance {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @Column(name = "balance", nullable = false, columnDefinition="Decimal(10,2)")
+    @Column(name = "balance", nullable = false, columnDefinition = "Decimal(10,2)")
     private BigDecimal balance;
 }
